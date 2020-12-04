@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TODO(13): Definir un LinearLayout, con ancho y altura de toda la pantalla, centrado, con un margen interior de 12 dp, vertical y que muestre "StartActivity"-->
+<!-- TODO(14): Mostrar el logo, con 50 píxeles de altura -->
+<!-- TODO(15): Crear un Button con texto de logarse, cuya anchura sea toda la disponible, con altura ajustable, un margen superior de 15dp, color de fuent3e blanco y color de fondo drawable/button_background -->
+<!-- TODO(16): Mismo componente que TODO 15 con texto registrar -->
+
+
