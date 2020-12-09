@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.dashboard.DashboardFragment">
-<!-- DONE(17): Crear un TextView, con id text_dashboard, con altura ajustada al texto, anchura total, cuyos atributos layout_marginStart, layout_marginTop, layout_marginEnd sea 8 dp
+<!-- TODO(17): Crear un TextView, con id text_dashboard, con altura ajustada al texto, anchura total, cuyos atributos layout_marginStart, layout_marginTop, layout_marginEnd sea 8 dp
 con texto centrado, con tamaño de letra 20sp y con los siguientes atributos
 
         app:layout_constraintBottom_toBottomOf="parent"
@@ -16,7 +16,7 @@ con texto centrado, con tamaño de letra 20sp y con los siguientes atributos
         android:id="@+id/text_dashboard"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:text=""
         android:textAlignment="center"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"

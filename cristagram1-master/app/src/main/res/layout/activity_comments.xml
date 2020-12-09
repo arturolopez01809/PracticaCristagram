@@ -23,7 +23,10 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/bottom">
+        android:background="@color/colorWhite"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/bottom"
+        android:padding="4dp">
 
         <!-- TODO(31): Crear un elemento de.hdodenhof.circleimageview.CircleImageView con altura y anchura de 40dp, y con id "image_profile"-->
         <de.hdodenhof.circleimageview.CircleImageView
@@ -33,10 +36,9 @@
         <!-- TODO(32): Crear un elemento EditText de fondo transparente, con altura ajustable, ancho total, que muestre de texto "añadir un comentario" y los siguientes atributos-->
 
         <EditText
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#00FFFFFF"
-            android:ems="10"
+            android:background="@android:color/transparent"
             android:inputType="textPersonName"
             android:text="@string/add_comment"
             android:layout_toRightOf="@+id/image_profile"
@@ -50,7 +52,7 @@
         <!-- TODO(33): Crear un elemento TextView con altura y anchura ajustable, con id "post", con color de texto colorPrimaryDark y los siguientes atributos-->
         <TextView
             android:id="@+id/post"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/colorPrimaryDark"
             android:text="@string/post"

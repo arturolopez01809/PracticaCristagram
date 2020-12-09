@@ -10,16 +10,16 @@
     android:layout_marginBottom="12dp"
     tools:context=".StartActivity">
 
-    <!-- DONE(14): Mostrar el logo, con 50 píxeles de altura -->
+    <!-- TODO(14): Mostrar el logo, con 50 píxeles de altura -->
 
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50px"
         tools:srcCompat="@drawable/logo" />
 
 
-    <!-- DONE(15): Crear un Button con texto de logarse, cuya anchura sea toda la disponible, con altura ajustable, un margen superior de 15dp, color de fuent3e blanco y color de fondo drawable/button_background -->
+    <!-- TODO(15): Crear un Button con texto de logarse, cuya anchura sea toda la disponible, con altura ajustable, un margen superior de 15dp, color de fuent3e blanco y color de fondo drawable/button_background -->
 
     <Button
         android:id="@+id/button2"
@@ -30,7 +30,7 @@
         android:background="@drawable/button_background"
         android:text="@string/login" />
 
-    <!-- DONE(16): Mismo componente que DONE 15 con texto registrar -->
+    <!-- TODO(16): Mismo componente que DONE 15 con texto registrar -->
 
     <Button
         android:id="@+id/button3"

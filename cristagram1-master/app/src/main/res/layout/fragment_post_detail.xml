@@ -21,12 +21,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <!-- DONE(24): Crear un TextView con altura y anchura ajustable, con un tamaño de fuente 18sp negrita , con texto "Photo" y un color de fuente colorPrimaryDark -->
+                <!-- TODO(24): Crear un TextView con altura y anchura ajustable, con un tamaño de fuente 18sp negrita , con texto "Photo" y un color de fuente colorPrimaryDark -->
 
                 <TextView
                     android:id="@+id/textView"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
                     android:textColor="@color/colorPrimaryDark"
                     android:text="@string/Photo" />
 
@@ -39,7 +41,7 @@
 
 
 
-    <!-- DONE(25): Crear un RecyclerView de la librería androidx, con altura ajustable y ancho total, con layout_below="@id/bar" e id "recycle_view"-->
+    <!-- TODO(25): Crear un RecyclerView de la librería androidx, con altura ajustable y ancho total, con layout_below="@id/bar" e id "recycle_view"-->
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycle_view"
         android:layout_width="match_parent"
